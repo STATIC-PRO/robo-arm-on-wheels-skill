@@ -29,3 +29,6 @@ GPIO.setmode(GPIO.BOARD)
         servo1.ChangeDutyCycle(2+(angle/18))
         time.sleep(0.5)
         servo1.ChangeDutyCycle(0)
+# Called by Mycroft to create skill object
+def create_skill():
+    return RoboInteract()
