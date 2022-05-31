@@ -15,8 +15,8 @@ class RoboArmOnWheels(MycroftSkill):
 
     @intent_file_handler('wheels.on.arm.robo.intent')
     def handle_wheels_on_arm_robo(self, message):
-        self.speak_dialog('wheels.on.arm.robo.dialog')
-        
+        self.speak_dialog('wheels.on.arm.robo.'
+        )
         servo1.ChangeDutyCycle(2+(180/18))
         time.sleep(0.5)
         servo1.ChangeDutyCycle(0)
