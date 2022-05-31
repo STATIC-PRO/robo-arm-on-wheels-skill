@@ -1,5 +1,5 @@
 {
-  "utterance": "can you {action}",
+  "utterance": "can you dance",
   "intent_type": "wheels.on.arm.robo.intent",
   "expected_dialog": "wheels.on.arm.robo"
 }
